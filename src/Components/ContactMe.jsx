@@ -12,7 +12,7 @@ const ContactMe = () => {
       formsubit.co/ you need to write your email otherwise
       you can use different mail sender */}
       <form
-        action="https://formsubmit.co/YourGmailHere"
+        action="https://formsubmit.co/monster.striker21@gmail.com"
         method="POST"
       >
         <h1 data-aos="fade-up">Contact Me</h1>

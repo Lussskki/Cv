@@ -1,6 +1,5 @@
 import {
   FaCss3,
-  FaFigma,
   FaNodeJs,
   FaPython,
   FaReact,
@@ -8,8 +7,6 @@ import {
 import { FaHtml5 } from "react-icons/fa";
 import "./CSS/aboutme.css";
 import { TbBrandJavascript } from "react-icons/tb";
-import { FiFramer } from "react-icons/fi";
-import { SiAdobephotoshop } from "react-icons/si";
 import SkillsCard from "./SkillsCard";
 
 const AboutMe = () => {
@@ -25,19 +22,7 @@ const AboutMe = () => {
             data-aos-delay="250"
             className="aboutme-text"
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente,
-            cum, deserunt nemo voluptate esse eaque iusto qui voluptates quas
-            aliquam amet ducimus sit quos quia. Iste eius laudantium aliquid
-            suscipit. Inventore perspiciatis molestiae, dolorem rerum nam
-            perferendis alias, similique quos ipsum debitis dolores culpa. Velit
-            laborum quam sed doloribus, delectus, tempore dolor libero unde
-            corporis iusto inventore, nemo beatae explicabo! Laudantium veniam
-            eius repudiandae quae repellendus fuga, asperiores, atque fugit
-            libero enim et, dicta magni dolor veritatis non suscipit ipsam?
-            Provident, delectus. Asperiores odit voluptas debitis laborum. Quam,
-            dolorem quaerat! Dicta tenetur distinctio repellat quod cupiditate
-            blanditiis debitis dolores itaque porro officia beatae, nesciunt
-            facilis voluptas ducimus velit molestiae voluptatem vel quasi?
+            I am luka 
           </p>
         </div>
 
@@ -50,19 +35,7 @@ const AboutMe = () => {
             data-aos-delay="250"
             className="aboutme-text"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-            maiores non vel totam nisi commodi quia explicabo voluptatum, sunt
-            aspernatur alias fugiat hic illum soluta quibusdam autem recusandae,
-            iste dignissimos. Nisi error doloribus officia placeat beatae
-            accusantium dolores labore iste id maiores repellat cum impedit,
-            harum recusandae nemo quasi excepturi qui rem vitae eveniet.
-            Eligendi sequi autem similique esse omnis! Voluptatem libero velit
-            temporibus expedita nisi est, enim laborum aliquid autem tempora?
-            Repudiandae officia, delectus, molestias hic perferendis ab nam nisi
-            accusantium eos itaque incidunt magni qui eveniet natus iure. Labore
-            ipsum amet dicta hic et culpa temporibus veritatis dolor ut. Tempore
-            ducimus aperiam, modi earum perspiciatis optio nemo! Aliquam vero
-            dolor provident cum obcaecati perferendis ex ipsum consequuntur quo.
+            i am luka
           </p>
         </div>
       </div>
@@ -125,48 +98,6 @@ const AboutMe = () => {
           fadeSide={"fade-up"}
           fadeDelay={300}
           icon={<FaPython size={50} color="white" />}
-        />
-
-        <SkillsCard
-          titleValue={"Animate On Scroll"}
-          fadeSide={"fade-up"}
-          fadeDelay={350}
-          icon={<h2>AOS</h2>}
-        />
-
-        <SkillsCard
-          titleValue={"PHOTOSHOP CS6"}
-          fadeSide={"fade-up"}
-          fadeDelay={400}
-          icon={<SiAdobephotoshop size={50} color="white" />}
-        />
-
-        <SkillsCard
-          titleValue={"Framer Motion"}
-          fadeSide={"fade-up"}
-          fadeDelay={450}
-          icon={<FiFramer size={50} color="white" />}
-        />
-
-        <SkillsCard
-          titleValue={"FIGMA"}
-          fadeSide={"fade-up"}
-          fadeDelay={500}
-          icon={<FaFigma size={50} color="white" />}
-        />
-
-        <SkillsCard
-          titleValue={"CLOUDINARY"}
-          fadeSide={"fade-up"}
-          fadeDelay={550}
-          icon={<p style={{ color: "white" }}>Cloudinary</p>}
-        />
-
-        <SkillsCard
-          titleValue={"CLOUDINARY"}
-          fadeSide={"fade-up"}
-          fadeDelay={550}
-          icon={<p style={{ color: "white" }}>Cloudinary</p>}
         />
       </div>
     </div>

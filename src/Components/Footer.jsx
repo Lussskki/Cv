@@ -36,7 +36,7 @@ const Footer = () => {
 
         <div className="mini-links">
           {/* In href change YourURLHere to your facebook url */}
-          <a href="YourURLHere" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=61563483197161" target="_blank">
             <FaFacebook
               size={30}
               color={facebookColor}
@@ -46,7 +46,7 @@ const Footer = () => {
           </a>
           {/* In href change YourURLHere to your github profile url like this: https://github.com/GiorgiGochitidze */}
 
-          <a href="YourURLHere" target="_blank">
+          <a href="https://github.com/Lussskki" target="_blank">
             <BsGithub
               size={30}
               color={githubColor}
