@@ -1,11 +1,5 @@
-import { GrLanguage } from "react-icons/gr";
 import "./CSS/portfolio.css";
-import { GiTicTacToe } from "react-icons/gi";
-import { SlCalculator } from "react-icons/sl";
-import { MdModeOfTravel } from "react-icons/md";
-import { LuEarth } from "react-icons/lu";
-import { CiShop } from "react-icons/ci";
-import logo from "../assets/logo.png";
+import logo from "../assets/Amazonlogo.png";
 import ProjectsCard from "./ProjectsCard";
 
 const Portfolio = () => {
@@ -32,9 +26,9 @@ const Portfolio = () => {
           // In here you can write the status of your project such as: In progress, paused, completed and so on.
           status={"Completed"}
           // A short description of your project.
-          description={`My back-end project of register/login and choose your stuff`}
+          description={`Back-end project of register/login and buy everything you want`}
           // Write the url of your project.
-          URL={"https://webcanvasgeo.netlify.app/"}
+          URL={"https://github.com/Lussskki/AmazonProject"}
           fadeSide={"fade-right"}
           fadeDelay={100}
         />
