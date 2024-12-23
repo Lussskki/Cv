@@ -1,5 +1,7 @@
 import "./CSS/portfolio.css";
-import logo from "../assets/Amazonlogo.png";
+import amazonLogo from "../assets/Amazon.png";
+import eccommerceLogo from '../assets/Eccomerce.png';
+import portfolioLogo from '../assets/Portfolio.png'
 import ProjectsCard from "./ProjectsCard";
 
 const Portfolio = () => {
@@ -20,7 +22,7 @@ const Portfolio = () => {
       <div className="portfolio-list">
         <ProjectsCard
         // In icon place you can place react component or html tag.
-          icon={<img style={{ width: "70px" }} src={logo} alt="logo" />}
+          icon={<img style={{ width: "70px" }} src={amazonLogo} alt="logo" />}
           // title will change the header of the project card
           title={"Amazon clone"}
           // In here you can write the status of your project such as: In progress, paused, completed and so on.
@@ -32,7 +34,35 @@ const Portfolio = () => {
           fadeSide={"fade-right"}
           fadeDelay={100}
         />
-
+         <ProjectsCard
+        
+          icon={<img style={{ width: "70px" }} src={eccommerceLogo} alt="logo" />}
+        
+          title={"Eccommerce Project"}
+           
+          status={"Completed"}
+          
+          description={`Eccommerce back-end project about signup/signin and get services `}
+          
+          URL={"https://github.com/Lussskki/EcommerceProject"}
+          fadeSide={"fade-right"}
+          fadeDelay={100}
+        />
+        <ProjectsCard
+        
+        icon={<img style={{ width: "70px" }} src={portfolioLogo} alt="logo" />}
+      
+        title={"Portfolio"}
+         
+        status={"Completed"}
+        
+        description={`My very first portfolio made in 2021`}
+        
+        URL={"https:/lussskki.github.io/Portfolio/"}
+        fadeSide={"fade-right"}
+        fadeDelay={100}
+      />
+      
        
       </div>
     </div>
