@@ -1,7 +1,9 @@
 import "./CSS/portfolio.css";
 import amazonLogo from "../assets/Amazon.png";
-import eccommerceLogo from '../assets/Eccomerce.png';
-import portfolioLogo from '../assets/Portfolio.png'
+import ecommerceLogo from '../assets/Ecommerce.png';
+import portfolioLogo from '../assets/Portfolio.png';
+import spaceWarLogo from '../assets/SpaceWarLogo.png';
+import chatLogo from '../assets/Chat.png';
 import ProjectsCard from "./ProjectsCard";
 
 const Portfolio = () => {
@@ -36,13 +38,13 @@ const Portfolio = () => {
         />
          <ProjectsCard
         
-          icon={<img style={{ width: "70px" }} src={eccommerceLogo} alt="logo" />}
+          icon={<img style={{ width: "70px" }} src={ecommerceLogo} alt="logo" />}
         
-          title={"Eccommerce Project"}
+          title={"Ecommerce Project"}
            
           status={"Completed"}
           
-          description={`Eccommerce back-end project about signup/signin and get services `}
+          description={`Ecommerce back-end project about signup/signin and get services `}
           
           URL={"https://github.com/Lussskki/EcommerceProject"}
           fadeSide={"fade-right"}
@@ -62,6 +64,34 @@ const Portfolio = () => {
         fadeSide={"fade-right"}
         fadeDelay={100}
       />
+      <ProjectsCard
+        
+        icon={<img style={{ width: "70px" }} src={chatLogo} alt="logo" />}
+      
+        title={"Chat app"}
+         
+        status={"Work in progress"}
+        
+        description={`Chat app full project for comunicate to eachother`}
+        
+        URL={"https://github.com/Lussskki/Chat-app"}
+        fadeSide={"fade-right"}
+        fadeDelay={100}
+      />
+      <ProjectsCard
+        
+        icon={<img style={{ width: "70px" }} src={spaceWarLogo} alt="logo" />}
+      
+        title={"Space war"}
+         
+        status={"Completed"}
+        
+        description={`Game space 1x1`}
+        
+        URL={"https://github.com/Lussskki/SpaceWar"}
+        fadeSide={"fade-right"}
+        fadeDelay={100}
+      />      
       
        
       </div>
