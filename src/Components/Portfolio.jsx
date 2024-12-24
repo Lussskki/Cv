@@ -4,6 +4,9 @@ import ecommerceLogo from '../assets/Ecommerce.png';
 import portfolioLogo from '../assets/Portfolio.png';
 import spaceWarLogo from '../assets/SpaceWarLogo.png';
 import chatLogo from '../assets/Chat.png';
+import crudLogo from '../assets/Crud.png';
+import controllLogo from '../assets/ControllEye.png';
+import quizLogo from '../assets/Quiz.png'
 import ProjectsCard from "./ProjectsCard";
 
 const Portfolio = () => {
@@ -91,9 +94,50 @@ const Portfolio = () => {
         URL={"https://github.com/Lussskki/SpaceWar"}
         fadeSide={"fade-right"}
         fadeDelay={100}
-      />      
+      />
+      <ProjectsCard
+        
+        icon={<img style={{ width: "70px" }} src={crudLogo} alt="logo" />}
       
-       
+        title={"Crud"}
+         
+        status={"Completed"}
+        
+        description={`Crudd app`}
+        
+        URL={"https://github.com/Lussskki/restapi"}
+        fadeSide={"fade-right"}
+        fadeDelay={100}
+      />
+      <ProjectsCard
+        
+        icon={<img style={{ width: "70px" }} src={controllLogo} alt="logo" />}
+      
+        title={"Mouse Controlling Eye"}
+         
+        status={"Completed"}
+        
+        description={`My First cv2 project `}
+        
+        URL={"https://github.com/Lussskki/MouseControlingEye"}
+        fadeSide={"fade-right"}
+        fadeDelay={100}
+      />
+      <ProjectsCard
+        
+        icon={<img style={{ width: "70px" }} src={quizLogo} alt="logo" />}
+      
+        title={"Quiz"}
+         
+        status={"Completed"}
+        
+        description={`Game quiz `}
+        
+        URL={"https://github.com/Lussskki/PYTHON-GAME-QUIZ"}
+        fadeSide={"fade-right"}
+        fadeDelay={100}
+      />
+                     
       </div>
     </div>
   );
