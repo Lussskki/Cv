@@ -73,7 +73,7 @@ const Portfolio = () => {
       
         title={"Chat app"}
          
-        status={"Work in progress"}
+        status={"In progress"}
         
         description={`Chat app full project for comunicate to eachother`}
         
