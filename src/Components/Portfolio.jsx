@@ -6,7 +6,8 @@ import spaceWarLogo from '../assets/SpaceWarLogo.png';
 import chatLogo from '../assets/Chat.png';
 import crudLogo from '../assets/Crud.png';
 import controllLogo from '../assets/ControllEye.png';
-import quizLogo from '../assets/Quiz.png'
+import quizLogo from '../assets/Quiz.png';
+import managerLogo from '../assets/Manager.png';
 import ProjectsCard from "./ProjectsCard";
 
 const Portfolio = () => {
@@ -134,6 +135,20 @@ const Portfolio = () => {
         description={`Game quiz `}
         
         URL={"https://github.com/Lussskki/PYTHON-GAME-QUIZ"}
+        fadeSide={"fade-right"}
+        fadeDelay={100}
+      />
+      <ProjectsCard
+        
+        icon={<img style={{ width: "70px" }} src={managerLogo} alt="logo" />}
+      
+        title={"Manager"}
+         
+        status={"Completed"}
+        
+        description={`Full-stack project where you can managment your time, set schedule`}
+        
+        URL={"https://manager-qbgd.onrender.com"}
         fadeSide={"fade-right"}
         fadeDelay={100}
       />
