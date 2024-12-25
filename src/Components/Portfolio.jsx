@@ -64,7 +64,7 @@ const Portfolio = () => {
         
         description={`My very first portfolio made in 2021`}
         
-        URL={"https:/lussskki.github.io/Portfolio/"}
+        URL={"https://symphonious-mousse-69ee23.netlify.app/"}
         fadeSide={"fade-right"}
         fadeDelay={100}
       />

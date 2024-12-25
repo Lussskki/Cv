@@ -160,7 +160,7 @@ const ShortInfo = () => {
           <hr />
           <p>
             {/* Write the amount of the projects you have in number for example 7 */}
-            <span style={{ color: "#FD6F00" }}>5</span> <br /> <br />
+            <span style={{ color: "#FD6F00" }}>9</span> <br /> <br />
             <span style={{ color: "#DFDFDF" }}>Projects Done</span>
           </p>
         </motion.div>
