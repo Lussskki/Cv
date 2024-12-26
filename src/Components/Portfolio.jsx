@@ -13,7 +13,7 @@ import ProjectsCard from "./ProjectsCard";
 const Portfolio = () => {
   return (
     <div id="portfolio" className="portfolio-container">
-      <h1 data-aos="fade-up">Portfolio</h1>
+      <h1 data-aos="fade-up">My projects</h1>
 
       <p
         data-aos="fade-up"

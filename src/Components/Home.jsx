@@ -8,6 +8,7 @@ import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
+import Experience from "./Experience";
 
 const Home = () => {
 
@@ -24,6 +25,8 @@ const Home = () => {
       <Services />
 
       <AboutMe />
+
+      <Experience />
 
       <Portfolio />
 
