@@ -1,6 +1,6 @@
 import "./CSS/portfolio.css";
 import ExperienceCard from "./ExperienceCard";
-import placeholderLogo from "../assets/Amazon.png";
+import placeholderLogo from "../assets/FundHance.png";
 
 
 const Experience = () => {
@@ -8,22 +8,31 @@ const Experience = () => {
     <div id="experience" className="portfolio-container">
       <h1 data-aos="fade-up">Experience</h1>
 
+
       <p
         data-aos="fade-up"
         data-aos-delay="150"
         style={{ color: "#959595", textAlign: "center", marginBlock: "20px" }}
       >
-        Here you will see my experience
+        Here you will see my experience, if you interested you can see at my Linkedin profile.
       </p>
 
       <div className="portfolio-list">
         <ExperienceCard
           icon={<img style={{ width: "70px" }} src={placeholderLogo} alt="logo" />}
-          title={"Sample Title"}
-          description={`• Develop a system to randomly assign usernames and passwords based on account usage status, requiring interpretation of Yes/No responses.`
-                       }
-          URL={"https://example.com"}
+            
+          title={" Software Engineer Intern "}
+
+          URL={"https://www.linkedin.com/in/lukaguledani/"}
+
+          DATE={"Sep 2023 - Aug 2024 · 1 yr"}
+          LOCATION={"Budapest, Hungary · Remote"}
+
+          description={"• Develop a system to randomly assign usernames and passwords based on account usage status, requiring interpretation of Yes/No responses."}
+ 
+
           fadeSide={"fade-right"}
+
           fadeDelay={100}
         />
       </div>
