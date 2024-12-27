@@ -15,7 +15,7 @@ const Experience = () => {
         style={{ color: "#959595", textAlign: "center", marginBlock: "20px" }}
       >
         
-Here you will see a glimpse of my experience. If you're interested in learning more, feel free to check out my full profile on LinkedIn.
+        Here you will see a glimpse of my experience. If you're interested in learning more, feel free to check out my full profile on LinkedIn.
       </p>
 
       <div className="portfolio-list">
