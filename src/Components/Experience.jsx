@@ -27,7 +27,7 @@ Here you will see a glimpse of my experience. If you're interested in learning m
           URL={"https://www.linkedin.com/in/lukaguledani/"}
           DATE={"Sep 2023 - Aug 2024 · 1 yr"}
           LOCATION={"Budapest, Hungary · Remote"}
-          description={"Developed and implemented systems for financial data management and analysis, including automating username/password assignment based on usage status, processing Excel-based financial data, and optimizing reporting accuracy by distinguishing paper and real-money profit and loss (PnL). Leveraged Python's libraries for RESTful API integration, created workflows for data extraction, and developed the py-interactive-brokers-api for market integration. Presented a Java Swing UI app using the Interactive Brokers API to showcase financial solutions to the CTO."}
+          description={"See on linkedin page"}
           fadeSide={"fade-right"}
 
           fadeDelay={100}
