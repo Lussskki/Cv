@@ -48,8 +48,8 @@ const AboutMe = () => {
       {/* In href write the path to your pdf resume which is located in public folder
       / means the out path which contains also a folder named public*/}
       <a
-        href="/HereYourResume.pdf"
-        download="/HereYourResume.pdf"
+        href="/cv.zip"
+        download="/cv.zip"
         data-aos="fade-up"
         data-aos-delay="300"
         className="download-cv"
