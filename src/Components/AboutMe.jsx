@@ -23,7 +23,9 @@ const AboutMe = () => {
             data-aos-delay="250"
             className="aboutme-text"
           >
-            I am luka 
+            I specialize in backend development and full-stack applications, leveraging technologies like Python, Node.js, react and MongoDB.
+             My experience includes building robust systems, integrating APIs, and deploying projects on platforms like Render and Netlify.
+             I am always exploring tools like Redis and Socket.IO to create innovative and efficient solutions.  
           </p>
         </div>
 
@@ -36,7 +38,9 @@ const AboutMe = () => {
             data-aos-delay="250"
             className="aboutme-text"
           >
-            i am luka
+            I deliver results by focusing on performance, scalability, and user satisfaction. 
+            My ability to adapt quickly to new technologies and tackle challenges head-on makes
+             me the ideal choice for projects requiring creativity and precision.
           </p>
         </div>
       </div>
