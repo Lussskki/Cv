@@ -1,4 +1,4 @@
-const ExperienceCard = ({ icon, title,profession, description, URL, DATE, LOCATION, fadeSide, fadeDelay }) => {
+const ExperienceCard = ({ icon, title,profession, description, URL, DATE,TIME, LOCATION, fadeSide, fadeDelay }) => {
     return (
         <div data-aos={fadeSide} data-aos-delat={fadeDelay} className="portfolio-card">
           {icon}
@@ -7,7 +7,8 @@ const ExperienceCard = ({ icon, title,profession, description, URL, DATE, LOCATI
           <a target="_blank" href={URL}>
             Linkedin Profile
           </a>
-          <p>{DATE}</p> 
+          <p>{DATE}</p>
+          <p>{TIME}</p> 
           <p>{LOCATION}</p>
           <p>{description}</p>
     

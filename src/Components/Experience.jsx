@@ -3,6 +3,8 @@ import ExperienceCard from "./ExperienceCard";
 import fundHance from "../assets/FundHance.png";
 import webCanvas from '../assets/webCanvas.png';
 import gosm from '../assets/gosm.png';
+import consultida from '../assets/consultida.png';
+import bitcamp from '../assets/bitcamp.png';
 
 
 const Experience = () => {
@@ -28,6 +30,7 @@ const Experience = () => {
           profession={"MERN developer"}
           URL={"https://www.linkedin.com/in/lukaguledani/"}
           DATE={"Nov 2024 - Present · 2 mos"}
+          TIME={"· Full time"}
           LOCATION={"Batumi, Ajaria, Georgia · Remote"}
           // description={"See on linkedin page"}
           fadeSide={"fade-right"}
@@ -42,7 +45,8 @@ const Experience = () => {
           title={" Funhance "}
           profession={"Software Engineer Intern"}
           URL={"https://www.linkedin.com/in/lukaguledani/"}
-          DATE={"Sep 2023 - Aug 2024 · 1 yr"}
+          DATE={"Sep 2023 - Aug 2024 · 1 yr "}
+          TIME={"· Part time"}
           LOCATION={"Budapest, Hungary · Remote"}
           // description={"See on linkedin page"}
           fadeSide={"fade-right"}
@@ -57,7 +61,39 @@ const Experience = () => {
           profession={"Back End Developer"}
           URL={"https://www.linkedin.com/in/lukaguledani/"}
           DATE={"Jan 2023 - Dec 2023 · 1 yr"}
-          LOCATION={"Georgia, Tbilisi · Remote"}
+          TIME={"· Full time"}
+          LOCATION={"Tbilisi, Georgia · Remote "}
+          // description={"See on linkedin page"}
+          fadeSide={"fade-right"}
+
+          fadeDelay={100}
+        />
+
+        <ExperienceCard
+          icon={<img style={{ width: "70px" }} src={consultida} alt="logo" />}
+            
+          title={" Consultida "}
+          profession={"Front End Developer"}
+          URL={"https://www.linkedin.com/in/lukaguledani/"}
+          DATE={"Apr 2023 - Sep 2023 · 6 mos"}
+          TIME={"· Full time"}
+          LOCATION={"Tbilisi, Georgia · Remote "}
+          // description={"See on linkedin page"}
+          fadeSide={"fade-right"}
+
+          fadeDelay={100}
+        />
+
+
+        <ExperienceCard
+          icon={<img style={{ width: "70px" }} src={bitcamp} alt="logo" />}
+            
+          title={" Bitcamp "}
+          profession={" Web developer "}
+          URL={" https://www.linkedin.com/in/lukaguledani/ "}
+          DATE={"Oct 2020 - Jan 2023 · 2 yrs 4 mos"}
+          TIME={" · Full time "}
+          LOCATION={" Tbilisi, Georgia · Remote "}
           // description={"See on linkedin page"}
           fadeSide={"fade-right"}
 
