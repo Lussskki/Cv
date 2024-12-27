@@ -140,8 +140,8 @@ const ShortInfo = () => {
           transition={{ delay: 0.5 }}
           className="cv-btn"
           // Change "HereYourResume.pdf to the name of your resume in "public" folder", also same in download
-          href="/cv_Luka_Guledani.pdf"
-          download="/cv_Luka_guledani.pdf"
+          href="/cv.zip"
+          download="/cv.zip"
         >
           Download CV
         </motion.a>
