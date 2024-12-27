@@ -1,6 +1,8 @@
 import "./CSS/portfolio.css";
 import ExperienceCard from "./ExperienceCard";
-import placeholderLogo from "../assets/FundHance.png";
+import fundHance from "../assets/FundHance.png";
+import webCanvas from '../assets/webCanvas.png';
+import gosm from '../assets/gosm.png';
 
 
 const Experience = () => {
@@ -20,14 +22,43 @@ const Experience = () => {
 
       <div className="portfolio-list">
         <ExperienceCard
-          icon={<img style={{ width: "70px" }} src={placeholderLogo} alt="logo" />}
+          icon={<img style={{ width: "70px" }} src={webCanvas} alt="logo" />}
+            
+          title={" Web Canvas "}
+          profession={"MERN developer"}
+          URL={"https://www.linkedin.com/in/lukaguledani/"}
+          DATE={"Nov 2024 - Present · 2 mos"}
+          LOCATION={"Batumi, Ajaria, Georgia · Remote"}
+          // description={"See on linkedin page"}
+          fadeSide={"fade-right"}
+
+          fadeDelay={100}
+        />
+
+
+        <ExperienceCard
+          icon={<img style={{ width: "70px" }} src={fundHance} alt="logo" />}
             
           title={" Funhance "}
           profession={"Software Engineer Intern"}
           URL={"https://www.linkedin.com/in/lukaguledani/"}
           DATE={"Sep 2023 - Aug 2024 · 1 yr"}
           LOCATION={"Budapest, Hungary · Remote"}
-          description={"See on linkedin page"}
+          // description={"See on linkedin page"}
+          fadeSide={"fade-right"}
+
+          fadeDelay={100}
+        />
+
+        <ExperienceCard
+          icon={<img style={{ width: "70px" }} src={gosm} alt="logo" />}
+            
+          title={" Georgian Organization of the Scout Movement (GOSM) "}
+          profession={"Back End Developer"}
+          URL={"https://www.linkedin.com/in/lukaguledani/"}
+          DATE={"Jan 2023 - Dec 2023 · 1 yr"}
+          LOCATION={"Georgia, Tbilisi · Remote"}
+          // description={"See on linkedin page"}
           fadeSide={"fade-right"}
 
           fadeDelay={100}
