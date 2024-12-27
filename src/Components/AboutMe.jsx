@@ -3,6 +3,7 @@ import {
   FaNodeJs,
   FaPython,
   FaReact,
+  FaLinux,
 } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import "./CSS/aboutme.css";
@@ -99,6 +100,15 @@ const AboutMe = () => {
           fadeDelay={300}
           icon={<FaPython size={50} color="white" />}
         />
+
+        <SkillsCard
+          titleValue={"LINUX"}
+          fadeSide={"fade-up"}
+          fadeDelay={300}
+          icon={<FaLinux size={50} color="white" />}
+        />
+
+
       </div>
     </div>
   );
